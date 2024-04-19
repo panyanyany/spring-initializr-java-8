@@ -8,7 +8,7 @@ function Social() {
       <a
         rel='noreferrer noopener'
         target='_blank'
-        href='https://github.com/spring-io/start.spring.io'
+        href='https://github.com/panyanyany/spring-initializr-java-8'
       >
         <IconGithub />
       </a>

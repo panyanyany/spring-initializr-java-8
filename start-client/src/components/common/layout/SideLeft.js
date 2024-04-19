@@ -66,7 +66,7 @@ function SideLeft() {
             <a
               rel='noreferrer noopener'
               target='_blank'
-              href='https://github.com/spring-io/start.spring.io'
+              href='https://github.com/panyanyany/spring-initializr-java-8'
             >
               <span className='a-content' tabIndex='-1'>
                 <IconGithub />
@@ -139,7 +139,7 @@ function SideLeft() {
                         <a
                           rel='noreferrer noopener'
                           target='_blank'
-                          href='https://github.com/spring-io/start.spring.io'
+                          href='https://github.com/panyanyany/spring-initializr-java-8'
                         >
                           <span className='a-content' tabIndex='-1'>
                             Github
@@ -149,30 +149,35 @@ function SideLeft() {
                     </ul>
                   </div>
                   <div className='copyright'>
-                    © 2013-{new Date().getFullYear()} Broadcom. All Rights
-                    Reserved.
-                    <br />
-                    The term &quot;Broadcom&quot; refers to Broadcom Inc. and/or
-                    its subsidiaries
-                    <br />
-                    start.spring.io is powered by{' '}
-                    <span>
-                      <a
+                    This website is an independent project developed by
+                    modifications from the open-source project available at{' '}
+                    <a
                         target='_blank'
                         rel='noopener noreferrer'
-                        href='https://github.com/spring-io/initializr/'
+                        href='https://github.com/spring-io/start.spring.io/'
+                    >
+                      spring-io/start.spring.io
+                    </a>{' '}
+                    on GitHub. This modification is maintained under the fork found at{' '}
+                    <a
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        href='https://github.com/panyanyany/spring-initializr-java-8'
+                    >
+                      GitHub - panyanyany/spring-initializr-java-8.
+                    </a>{' '}
+                    <br/>
+                    The term &quot;Broadcom&quot; refers to Broadcom Inc. and/or
+                    its subsidiaries.
+                    <br/>
+                    springinitializrjava8.cc is powered by{' '}
+                    <span>
+                      <a
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href='https://github.com/spring-io/initializr/'
                       >
                         Spring Initializr
-                      </a>
-                    </span>{' '}
-                    <span>and</span>{' '}
-                    <span>
-                      <a
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        href='https://buildpacks.io/'
-                      >
-                        Cloud Native Buildpacks
                       </a>
                     </span>
                   </div>

@@ -1552,12 +1552,12 @@ initializr:
     - id: 21
       default: false
     - id: 17
-      default: true
+      default: false
     - id: 11
       default: false
     - id: 1.8
       name: 8
-      default: false
+      default: true
   languages:
     - name: Java
       id: java
@@ -1574,10 +1574,13 @@ initializr:
       default: false
     - name: 3.0.2
       id: 3.0.2
-      default: true
+      default: false
     - name: 2.7.9 (SNAPSHOT)
       id: 2.7.9-SNAPSHOT
       default: false
+    - name: 2.7.18
+      id: 2.7.18.RELEASE
+      default: true
     - name: 2.7.8
       id: 2.7.8
       default: false

@@ -1,0 +1,11 @@
+services:
+  web:
+    image: amazoncorretto:17-alpine3.16
+    volumes:
+      - ./:/app
+    command: java -jar ./start-site/target/start-site-exec.jar
+    working_dir: /app
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - 8080:8080
